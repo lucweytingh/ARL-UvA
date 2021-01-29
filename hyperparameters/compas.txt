@@ -1,0 +1,1 @@
+{"batch_size": 32, "lr_learner": 0.01, "lr_adversary": 1, "train_steps": 470}
