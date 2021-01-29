@@ -1,6 +1,5 @@
-# Fairness without Demographics through Adversarially Reweighted Learning (analysis of reproducibility)
+# Reimplementing the Adversarially Reweighted Learning model by Lahoti et al. (2020) to improve fairness without demographics
 
-## Abstract
 This repository provides a PyTorch implementation of the Adversarially Reweighted Learning (ARL) model, as proposed by Lahoti et al.  
 
 ## Authors
