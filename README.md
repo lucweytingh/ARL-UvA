@@ -63,7 +63,11 @@ provide an overview of the data and features in the datasets Adult, LSAC and COM
 
 
 # Reproducing Experiments
-Reproduce the experiments by running the notebook results.ipynb
+Reproduce the experiments by running the notebook:
+
+```
+results.ipynb
+```
 
 Reproduce the hyperparameter search by running:
 ```
