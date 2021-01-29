@@ -33,23 +33,23 @@ pip install -r requirements.txt
 ### Pre-process COMPAS dataset 
 Download the COMPAS dataset from: https://github.com/propublica/compas-analysis/blob/master/compas-scores-two-years.csv and save it in 'data/compas/'.
 
-Run '???.ipynb' notebook to process dataset, and create files.
+Run 'data/preprocess_data/CreateCompasDatasetFiles.ipynb' to process the dataset, and create the required files.
 
 ### Pre-process UCI Adult dataset 
 Download the UCI Adult dataset from: https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.test and save it in 'data/adult/'.
 
-Run '???.ipynb' notebook to process dataset, and create files.
+Run 'data/preprocess_data/CreateUCIAdultDatasetFiles.ipynb' to process the dataset, and create the required files.
 
 ### Pre-process  Law School Admissions Council (LSAC) dataset 
 Download the  Law School Admissions Council (LSAC) dataset from: http://www.seaphe.org/databases.php and save it in 'data/compas'.
 
-Run '???.ipynb' notebook to process dataset, and create files.
+Run 'data/preprocess_data/CreateLawSchoolDatasetFiles.ipynb' to process the dataset, and create the required files.
 
 
 ## Reproduce experiments
 Reproduce the experiments by running:
 ```
-python train.py
+results.ipynb
 ```
 
 Reproduce the hyperparameter search by running:
@@ -58,7 +58,7 @@ python hyperparameter.py
 ```
 
 
-## Citation
+## Citation of the original paper by Lahoti et al.
 ```
 @article{lahoti2020fairness,
   title={Fairness without demographics through adversarially reweighted learning},
