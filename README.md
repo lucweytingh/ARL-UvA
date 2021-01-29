@@ -1,28 +1,28 @@
 # Fairness without Demographics through Adversarially Reweighted Learning (analysis of reproducibility)
 
 ## Abstract
-Literature on Machine Learning (ML) Fairness often assumes that protected features such as race and sex are present in the dataset. However, in practice these features are often not included because of privacy rules and regulations. Therefore, Lahoti et al. \cite{lahoti2020fairness} studied the following question: “How can we train a ML model to improve fairness when we do not know the protected group memberships?”. Reproducibility is a key characteristic of good science, therefore this report is reproduced. This research has three objectives: (1) to replicate the results by Lahoti et al, (2) to test its reproducibility, for which the ARL algorithm will be reimplemented in PyTorch and (3) to test the significance and noise sensitivity of the model.
+This repository provides a PyTorch implementation of the Adversarially Reweighted Learning (ARL) model, as proposed by Lahoti et al.  
 
 ## Authors
-* L.R. Weytingh
 * J. Mohazzab
+* L.R. Weytingh
 * C.A. Wortmann
 * B. Brocades Zaalberg
 
 ## Setup
 ### Prerequisitess
 ```
-Install python and miniconda
+Python and miniconda
 ```
 
 ### Requirements
 Initiate conda environment
 ```
-conda create -n arl python=3.6
-source activate arl
+conda create -n arl_uva python=3.8
+conda activate arl_uva
 ```
 
-Install the necissary dependencies
+Install the necessary dependencies
 ```
 pip install -r requirements.txt
 ```
