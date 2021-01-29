@@ -1,1 +1,1 @@
-{"isPartTime": ["Yes", "No"], "sex": ["Female", "Male"], "race": ["Other", "Black", "White"], "pass_bar": ["Passed", "Failed_or_not_attempted"]}
+{"isPartTime": ["Yes", "No"], "sex": ["Male", "Female"], "race": ["White", "Black", "Other"], "pass_bar": ["Passed", "Failed_or_not_attempted"]}
