@@ -17,13 +17,13 @@ Python and miniconda
 ### Requirements
 Initiate conda environment
 ```
-conda create -n arl_uva python=3.8
-conda activate arl_uva
+conda env create -f environment.yml
+
 ```
 
-Install the necessary dependencies
+Activate env
 ```
-pip install -r requirements.txt
+conda activate arl_uva 
 ```
 
 # Datasets
