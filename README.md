@@ -59,7 +59,7 @@ The jupyter notebooks:
 * ./data/data_utils/dataset_overview_lsac.ipynb
 * ./data/data_utils/dataset_overview_uci_adult.ipynb
 
-provide overview of the data and features in the datasets Adult, LSAC and COMPAS.
+provide an overview of the data and features in the datasets Adult, LSAC and COMPAS.
 
 
 # Reproducing Experiments
